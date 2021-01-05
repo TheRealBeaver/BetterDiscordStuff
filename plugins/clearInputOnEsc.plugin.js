@@ -43,7 +43,7 @@ var clearInputOnEsc = (function(){
       }});
     }});
 
-    if(ta = document.querySelector("form textarea")) try {
+    if(ta == document.querySelector("form textarea")) try {
       getInternalInstance(ta).forceUpdate();
     } catch (e) {}
 
